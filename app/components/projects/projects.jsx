@@ -49,11 +49,22 @@ export default function Projects() {
   }, [activeProject]);
 
   // GSAP: pin + stack (Personal Projects only)
-  useEffect(() => {
-    if (!sectionRef.current || !pinRef.current || !headerRef.current || !personalHeaderRef.current) return;
+useEffect(() => {
+  if (!sectionRef.current || !pinRef.current || !headerRef.current || !personalHeaderRef.current) return;
 
+  let ctx;
+  let ScrollTrigger;
 
-    const ctx = gsap.context(() => {
+  (async () => {
+    const gsapMod = await import("gsap");
+    const stMod = await import("gsap/ScrollTrigger");
+
+    const gsap = gsapMod.gsap || gsapMod.default || gsapMod;
+    ScrollTrigger = stMod.ScrollTrigger;
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    ctx = gsap.context(() => {
       const wraps = gsap.utils.toArray('[data-feature="wrap"]');
       const cards = gsap.utils.toArray('[data-feature="personal-card"]');
 
@@ -75,7 +86,6 @@ export default function Projects() {
         },
       });
 
-
       ScrollTrigger.create({
         trigger: sectionRef.current,
         start: "top top-=100",
@@ -87,21 +97,16 @@ export default function Projects() {
         invalidateOnRefresh: true,
       });
 
-
-
-      // cleanup-safe
       gsap.set(cards, { clearProps: "transform" });
 
       wraps.forEach((wrap, i) => {
         const card = cards[i];
-
-        // Similar to the CodePen: earlier cards get slightly more "stacked"
         let scale = 1;
         let rotationX = 0;
 
         if (i !== cards.length - 1) {
-          scale = 0.92 + 0.02 * i; // tweak to taste
-          rotationX = -8;          // subtle tilt
+          scale = 0.92 + 0.02 * i;
+          rotationX = -8;
         }
 
         gsap.to(card, {
@@ -122,9 +127,14 @@ export default function Projects() {
         });
       });
     }, sectionRef);
+  })();
 
-    return () => ctx.revert();
-  }, [personalProjects]);
+  return () => {
+    if (ctx) ctx.revert();
+    if (ScrollTrigger) ScrollTrigger.killAll(false); // optional safety
+  };
+}, [personalProjects.length]);
+
 
 
 
