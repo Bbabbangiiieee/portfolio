@@ -1,0 +1,157 @@
+.contactSection {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.subtitle {
+  max-width: 600px;
+  opacity: 0.85;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+/* LEFT SIDE */
+
+.contactInfo h4 {
+    font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.infoList {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.infoList li {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  color: var(--secondary-color);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.infoList span {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.infoList a, .infoList p {
+  color: var(--foreground);
+  text-decoration: none;
+  line-height: 1.4;
+  font-size: 1.1rem;
+}
+
+.infoList a:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+.infoList p:hover {
+  color: var(--secondary-color);
+}
+
+
+/* RIGHT SIDE */
+
+.contactForm {
+  background: rgba(10, 14, 25, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  backdrop-filter: blur(10px);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.field label {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.field input,
+.field textarea {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  padding: 0.6rem 0.7rem;
+  color: var(--foreground);
+  outline: none;
+}
+
+.field input:focus,
+.field textarea:focus {
+  border-color: var(--secondary-color);
+}
+
+.submitBtn {
+  margin-top: 0.5rem;
+  align-self: flex-start;
+  padding: 0.75rem 1.2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(245, 175, 175, 0.3);
+  background: rgba(245, 175, 175, 0.08);
+  color: var(--foreground);
+  cursor: pointer;
+  transition: transform 160ms ease, background 160ms ease;
+}
+
+.submitBtn:hover {
+  transform: translateY(-2px);
+  background: rgba(245, 175, 175, 0.15);
+}
+
+.formStatus {
+  margin: 0.25rem 0 0;
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+}
+
+.success {
+  opacity: 0.9;
+}
+
+.error {
+  opacity: 0.9;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .contactGrid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "personalProjects": [
+    {
+      "id": "p1",
+      "title": "KultuArte: Web App for Culture and Arts",
+      "description": "A web-based POS and inventory system built to streamline sales, stock tracking, and daily reporting for small businesses.",
+      "image": "/assets/images/kultuarte-thumbnail.png",
+      "longDescription": "<strong>KultuArte</strong> is a social media web application designed to promote culture and the arts through curated and community-driven digital platform. It provides users with core social networking features such as posting, commenting, reactions, and private messaging, while maintaining structured access control to preserve content quality and authenticity.<br/><br/>The platform supports three user roles: <strong>Guest, Registered User, and Administrator</strong>. <strong>Guests</strong> can freely browse and explore public content, allowing visitors to discover artists, artworks, and cultural initiatives without creating an account. <strong>Registered users</strong> can interact with the platform by creating posts, commenting on content, and sending messages; however, posting privileges require an approval process to ensure that contributors are legitimate artists or cultural advocates. This verification step helps maintain a trustworthy and high-quality creative community.<br/><br/><strong>Administrators</strong> have access to a dedicated dashboard where they can manage user accounts, review and approve registrations, moderate content, and oversee overall platform activity. This role-based structure enables controlled growth while protecting the platform from spam, misuse, and low-quality submissions.<br/><br/>KultuArte is built with a focus on usability, responsive design, security, and scalability. It implements secure authentication, role-based access control, dynamic content management, and efficient database handling to support increasing user engagement. The project demonstrates strong full-stack development skills, including frontend interface development, backend logic implementation, database design, and user workflow management.",
+      "tools": ["Laravel", "JavaScript", "HTML", "CSS", "Bootstrap", "MySQL"],
+      "video": "/assets/videos/kultuarte_demo.mp4",
+      "gallery": [
+        "/assets/images/kultuarte1.png",
+        "/assets/images/kultuarte2.png",
+        "/assets/images/kultuarte3.png",
+        "/assets/images/kultuarte4.png",
+        "/assets/images/kultuarte5.png",
+        "/assets/images/kultuarte6.png"
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "MedFind: Medicine Finding & Tracking System",
+      "description": "Responsive, animated, and SEO-optimized pages built with Next.js, with ongoing maintenance, audits, and deployment support.",
+      "image": "/assets/images/medfind-thumbnail.png",
+      "longDescription": "<strong>MedFind</strong> is a web application designed to manage medicine records while helping users quickly locate nearby pharmacies that carry specific medicines. The platform supports two main user groups: <strong>Administrators and End Users</strong>, providing both operational tools and a smooth search experience.<br/><br/><strong>Administrators</strong> can maintain medicine and pharmacy records, update stock availability, and ensure that data remains accurate and up to date. <strong>End users</strong> can search for medicines and view nearby pharmacies using integrated <strong>geolocation services</strong>, making it easier to access essential medications.<br/><br/>The application focuses on usability, performance, and data accuracy, featuring responsive design, secure authentication, optimized search functionality, and structured database management. MedFind demonstrates practical full-stack development skills, including CRUD operations, location-based features, and efficient data handling.",
+      "tools": ["PHP", "HTML", "CSS", "JavaScript", "Bootstrap", "MySQL"],
+      "video": "/assets/videos/medfind_demo.mp4",
+      "gallery": [
+        "/assets/images/medfind1.png",
+        "/assets/images/medfind2.png",
+        "/assets/images/medfind3.png"
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "RFID-based Attendance Monitoring System",
+      "description": "A culture and arts web application designed to promote local initiatives through posting, engagement, and community interaction.",
+      "image": "/assets/images/attendance-thumbnail.png",
+      "longDescription": "The <strong>RFID-Based Attendance Monitoring System</strong> is a smart attendance solution designed to automate student attendance tracking while providing clear and actionable data visualization for instructors and administrators. The system supports both </strong>automatic attendance recording using RFID technology and manual attendance entry for special cases</strong>, ensuring flexibility and reliability in real-world classroom environments.<br/><br/>Attendance data is processed and displayed through interactive dashboards that summarize student attendance on a <strong>daily, weekly, and monthly</strong> basis. This allows instructors to easily monitor trends, identify absences, and generate insights for academic tracking and reporting. The system also includes features for managing instructor schedules and event notes, helping centralize classroom planning and record-keeping in one platform.<br/><br/>The project integrates hardware components such as RFID readers and microcontrollers with a web-based application and cloud database, enabling real-time data synchronization and remote access. It emphasizes system reliability, data accuracy, and usability while demonstrating end-to-end IoT development skills, including hardware integration, real-time data handling, database management, and frontend visualization.",
+      "tools": ["Node.js", "JavaScript", "HTML", "CSS", "Bootstrap", "Firebase Firestore", "Arduino IDE"],
+      "video": "/assets/videos/rfid_demo.mp4",
+      "gallery": [
+        "/assets/images/attendance1.png",
+        "/assets/images/attendance2.png",
+        "/assets/images/attendance3.png",
+        "/assets/images/attendance4.png",
+        "/assets/images/attendance5.png"
+      ]
+    },
+    {
+      "id": "p4",
+      "title": "Fibré - Rice Class and Productivity Rate Prediction",
+      "description": "Automated workflows using Airtable, Make, and integrations to reduce manual steps and keep business processes consistent and trackable.",
+      "image": "/assets/images/fibre-thumbnail.png",
+      "longDescription": "<strong>Fibré</strong> is a web application that integrates machine learning models to help users analyze agricultural data and generate predictive insights. The platform allows users to <strong>train custom models and predict rice types and productivity rates</strong> based on multiple input attributes, supporting data-driven decision-making in agricultural planning and research.<br/><br/>Users can input datasets, configure training parameters, and evaluate model performance directly through the web interface. Once trained, the system enables real-time predictions, presenting results in a clear and user-friendly format. This workflow simplifies complex machine learning processes and makes predictive analytics accessible to non-technical users.<br/><br/>The application focuses on performance, data accuracy, and usability while handling model training, data processing, and result visualization efficiently. Fibré demonstrates strong full-stack and machine learning integration skills, including backend model execution, frontend data handling, and seamless interaction between the web application and ML pipelines.",
+      "tools": ["Python Django", "JavaScript", "HTML", "CSS", "Bootstrap", "Firebase Firestore"],
+      "video": "/assets/videos/Fibre_demo.mp4",
+      "gallery": [
+        "/assets/images/fibre1.png",
+        "/assets/images/fibre2.png",
+        "/assets/images/fibre3.png"
+      ]
+    }
+  ],
+  "clientProjects": [
+    {
+      "id": "c1",
+      "title": "Neuraserv Website",
+      "image": "/assets/images/neuraserv.png",
+      "description": "Developed with Next.js",
+      "longDescription": "<strong>Neuraserv</strong> is a web project built with Next.js and enhanced with GSAP animations to create smooth transitions and interactive visual flow. Motion is used thoughtfully to guide user attention and improve overall usability without distracting from content.<br/><br/>I implemented layout structure, integrated animation timelines, and optimized animation behavior to maintain performance across devices. The project required close attention to responsiveness, timing consistency, and cross-browser stability.",
+      "tools": ["Next.js", "GSAP", "Tailwind CSS", "FTP"],
+      "href": "https://neuraserv.com/",
+      "gallery": [
+        "/assets/images/neuraserv1.png",
+        "/assets/images/neuraserv2.png",
+        "/assets/images/neuraserv3.png"
+      ]
+    },
+    {
+      "id": "c2",
+      "title": "Geftas Website",
+      "image": "/assets/images/geftas.png",
+      "description": "Developed with Next.js",
+      "longDescription": "<strong>Geftas</strong> is a website developed using Next.js to deliver a clean, responsive, and well-structured digital presence for an institutional organization. The site presents informational content, programs, and research materials in an organized layout that supports easy navigation and accessibility across devices.<br/><br/>My role focused on implementing the frontend based on design specifications, building reusable components, and ensuring responsive behavior across different screen sizes. I also handled basic SEO considerations and performance optimization to support fast page rendering and consistent user experience.",
+      "tools": ["Next.js", "GSAP", "Tailwind CSS", "FTP"],
+      "href": "https://geftas.com/",
+      "gallery": [
+        "/assets/images/geftas1.png",
+        "/assets/images/geftas2.png",
+        "/assets/images/geftas3.png"
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "FirmOS Website",
+      "image": "/assets/images/firmos.png",
+      "description": "Developed with Webflow",
+      "longDescription": "<strong>FirmOS</strong> is a website built using Webflow to present product and service information in a structured and professional layout. The site leverages Webflow's CMS features to support content updates while maintaining consistent design and responsiveness across devices.</br></br>In addition to layout implementation and responsive refinement, I handled technical and content SEO, including page structure optimization, metadata setup, performance considerations, and content alignment for search visibility. The focus was on delivering a maintainable site that balances design clarity, usability, and search optimization.",
+      "tools": ["Webflow"],
+      "href": "https://www.firmos.ai/",
+      "gallery": [
+        "/assets/images/firmos1.png",
+        "/assets/images/firmos2.png",
+        "/assets/images/firmos3.png"
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Nocelix Website",
+      "image": "/assets/images/nocelix.png",
+      "description": "Developed with Wordpress",
+      "longDescription": "<strong>Nocelix</strong> is a WordPress website developed to support content publishing and editorial presentation. The platform allows non-technical users to manage pages and content while maintaining consistent styling and layout.</br></br>My work included theme customization, layout refinement, responsive adjustments, and improving overall content structure for usability and maintainability. I also handled basic optimization and CMS configuration to ensure smooth content updates.",
+      "tools": ["Wordpress", "Elementor"],
+      "href": "https://nocelix.com/",
+      "gallery": [
+        "/assets/images/nocelix1.png",
+        "/assets/images/nocelix2.png",
+        "/assets/images/nocelix3.png"
+      ]
+    }
+  ]
+}

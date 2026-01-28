@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "id": "webdev",
+      "title": "Custom Web Development",
+      "text": "I build responsive, high-performance websites and web applications tailored to your business needs, using modern frameworks, clean and maintainable code and low-code platforms",
+      "icon": { "type": "svg", "name": "chevrons", "size": 30 }
+    },
+    {
+      "id": "tools",
+      "title": "Internal Tools & Systems",
+      "text": "I build internal web tools and dashboards that support day-to-day operations, improve data accuracy, and help teams work more efficiently.",
+      "icon": { "type": "svg", "name": "tools", "size": 30 }
+    },
+    {
+      "id": "automation",
+      "title": "Automate Workflows",
+      "text": " I automate repetitive tasks and workflows using tools like Airtable, Make, and system integrations to reduce manual work and improve operational efficiency.",
+      "icon": { "type": "svg", "name": "automation", "size": 30 }
+    },
+    {
+      "id": "support",
+      "title": "Product & Process Support",
+      "text": "I help teams plan, execute, and improve their workflows by supporting sprint cycles, refining processes, and translating requirements into practical technical solutions.",
+      "icon": { "type": "svg", "name": "support", "size": 30 }
+    }
+  ],
+
+  "icons": {
+    "chevrons": [
+      { "tag": "polyline", "attrs": { "points": "16 18 22 12 16 6" } },
+      { "tag": "polyline", "attrs": { "points": "8 6 2 12 8 18" } }
+    ],
+    "tools": [
+      { "tag": "rect", "attrs": { "x": "3", "y": "3", "width": "7", "height": "9" } },
+      { "tag": "rect", "attrs": { "x": "14", "y": "3", "width": "7", "height": "5" } },
+      { "tag": "rect", "attrs": { "x": "14", "y": "12", "width": "7", "height": "9" } },
+      { "tag": "rect", "attrs": { "x": "3", "y": "16", "width": "7", "height": "5" } }
+    ],
+    "automation": [
+      { "tag": "circle", "attrs": { "cx": "12", "cy": "4", "r": "2" } },
+      { "tag": "circle", "attrs": { "cx": "6", "cy": "12", "r": "2" } },
+      { "tag": "circle", "attrs": { "cx": "18", "cy": "12", "r": "2" } },
+      { "tag": "circle", "attrs": { "cx": "12", "cy": "20", "r": "2" } },
+      { "tag": "line", "attrs": { "x1": "12", "y1": "6", "x2": "12", "y2": "18" } },
+      { "tag": "line", "attrs": { "x1": "7.5", "y1": "13.5", "x2": "16.5", "y2": "10.5" } },
+      { "tag": "line", "attrs": { "x1": "16.5", "y1": "13.5", "x2": "7.5", "y2": "10.5" } }
+    ],
+    "support": [
+      { "tag": "path", "attrs": { "d": "M9 2H15V4H9V2Z" } },
+      { "tag": "rect", "attrs": { "x": "9", "y": "4", "width": "6", "height": "18", "rx": "2", "ry": "2" } },
+      { "tag": "polyline", "attrs": { "points": "9 12 11 14 15 10" } }
+    ]
+  }
+}

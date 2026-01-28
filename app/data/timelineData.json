@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "title": "Operational Product Manager",
+      "location": "FirmOS",
+      "date": "April 2025 - December 2025",
+      "description": [
+        "Promoted to this role after consistently contributing to both technical and operational work within the team.",
+        "Led 14-day sprint cycles by running sprint planning, backlog refinement, retrospectives, and daily stand-ups to keep projects moving smoothly.",
+        "Kept track of timelines, tasks, and cross-team dependencies to make sure work stayed on schedule across different projects.",
+        "Helped remove blockers by coordinating with developers, designers, and stakeholders whenever issues came up during sprints.",
+        "Built and maintained GoHighLevel automations and integrations to improve lead handling, internal workflows, and client-facing processes.",
+        "Developed internal tools and small web applications to reduce manual work and improve data accuracy for daily operations."
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Web & SEO Specialist",
+      "location": "FirmOS",
+      "date": "January 2025 - March 2025",
+      "description": [
+        "Worked on both on-page and off-page SEO, including keyword research, technical checks, and content updates to improve search visibility.",
+        "Built and updated websites using tools like Next.js, Webflow, WordPress, and GoHighLevel, focusing on performance and responsiveness.",
+        "Improved site layout, navigation, and accessibility to make pages easier to use and more conversion-friendly.",
+        "Set up funnels, automations, and CRM workflows in GoHighLevel to support marketing campaigns and lead follow-ups."
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Web Developer",
+      "location": "Rikersiv",
+      "date": "September 2024 - January 2025",
+      "description": [
+        "Built responsive and animated web pages using Next.js, following SEO and performance best practices.",
+        "Handled website maintenance, updates, and technical checks, including sitemap setup and page structure improvements.",
+        "Managed basic server setup and deployment tasks to publish updates and keep sites running smoothly."
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Bachelor’s Degree in Information Technology",
+      "location": "Mindanao State University – Iligan Institute of Technology",
+      "date": "July 2024",
+      "description": [
+        "Specialized in Database Systems, focusing on data modeling, system design, and database management concepts.",
+        "Graduated Summa Cum Laude after consistently strong academic performance.",
+        "Completed a thesis project called “KultuArte,” a web application designed to help promote local culture and arts in Iligan City.",
+        "Built several academic and personal projects, including a medicine tracking system, a culture-focused social platform, and an app integrated with machine learning for rice classification."
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Freelance Developer (Part-time)",
+      "location": "Self-Employed",
+      "date": "January 2024 - Present",
+      "description": [
+        "Developed a POS and inventory system to help small businesses manage sales and track stock more easily.",
+        "Built an IoT-based attendance system with automated logging and simple dashboards for viewing records.",
+        "Created custom websites based on client needs, focusing on clean design, responsiveness, and performance.",
+        "Worked closely with clients to gather requirements, give progress updates, and make sure the final product met their expectations."
+      ]
+    }
+  ]
+}
